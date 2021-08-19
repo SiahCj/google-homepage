@@ -1,26 +1,60 @@
 .nav-bar{
-    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    /*font size? */
 }
 .nav-link{
-
+    margin: 0px 5px 5px 5px;
+    padding: 5px;
+    border:none;
+    font: 14px;
+    text-decoration:none;
+    color: rgba(0,0,0,0.87);
+}
+}
+.nav-link:hover {
+    text-decoration: underline;
 }
 .google-apps{
     border: none;
     outline: none;
     background: transparent;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
 }
 .google-apps:hover{
-    
+    background-color: #dee1e4;
+    opacity: 0.5;
 }
-.nav-profile{
-
+.gmail-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin: 0px 5px 5px 5px;
+    /*Resize image height & width depending on font size in Nav-bar*/
+}
+.gmail-picture:hover{
+    background-color: #5f6368;
 }
 
 .main{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    margin-top: 50px;
 }
 .google-logo{
-
+  
 }
 .search-bar{
 
