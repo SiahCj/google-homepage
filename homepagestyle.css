@@ -55,6 +55,7 @@
 }
 .google-logo{
   padding-bottom: 30px;
+  margin-top: 100px;
 }
 .search-bar{
     display: flex;
@@ -63,7 +64,9 @@
     width:600px;
     padding: 10px;
     border-radius: 20px;
-   
+}
+.search-bar:hover {
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
 
 }
 .search-icon{
@@ -76,16 +79,34 @@ opacity: 0.35;
     outline: none;
     padding: 10px;
 }
-.search-buttons{
-    font-size: 14px;
-    margin: 10px 4px;
-    padding: 0 16px;
-    line-height: 50px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
 
+.search-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 40px 0px 30px 0px;
+    }
+button {
+        border: 0;
+        border-radius: 0.25rem;
+        background:rgb(245, 245, 245);
+        color:inherit;
+        font-family: -system-ui, sans-serif;
+        font-size: 1rem;
+        line-height: 2;
+        white-space: nowrap;
+        text-decoration: none;
+        padding: 0.25rem 0.5rem;
+        cursor: pointer;
+      }
+.search-buttons :hover {
+    border: 1px solid #b1aeae;
+    overflow: hidden;
+    box-shadow: 1px 1px rgb(180, 179, 179);
 }
+
+
 .language-options{
 
 }
@@ -120,3 +141,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
+/*Notes 
+finish styling the buttons
+fix language options moving when hovering over buttons
+set padding and margins for the footer
+set links to relevant pages for footer
+
+*/
