@@ -2,7 +2,7 @@
 Google-homepage project : The_Odin_Project
 
 
-[Live Demo](https://siahcj.github.io/google-homepage/)
+[Live Demonstration of the page](https://siahcj.github.io/google-homepage/)
 
 
 
