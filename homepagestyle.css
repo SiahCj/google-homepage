@@ -113,10 +113,11 @@ button {
     box-shadow: 1px 1px rgb(180, 179, 179);
 }
 
-
+/*
 .language-options {
 
 }
+*/
 .footer-container {
     position: absolute;
     bottom: 0;
@@ -153,3 +154,4 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
