@@ -1,14 +1,19 @@
-.nav-bar{
+html {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    font: rgb(0, 0, 0);
+}
+.nav-bar {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 10px;
-    margin-top: 10px;
-    font-size: 14px;
+    margin-top: 15px;
+    font-size: 12px;
     /*font size? */
 }
-.nav-link{
-    margin: 0px 5px 5px 5px;
+.nav-link {
+    margin: 0px 5px 5px 0px;
     padding: 5px;
     border:none;
     font: 14px;
@@ -19,33 +24,36 @@
 .nav-link:hover {
     text-decoration: underline;
 }
-.google-apps{
+.google-apps {
     border: none;
     outline: none;
     background: transparent;
+    opacity: 0.5;
     border-radius: 50%;
     height: 40px;
     width: 40px;
 }
-.google-apps:hover{
+.google-apps:hover {
     background-color: #dee1e4;
-    opacity: 0.5;
+    opacity: 0.7;
 }
-.gmail-picture{
+
+.gmail-picture {
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    height: 35px;
-    width: 35px;
-    margin: 0px 5px 5px 5px;
-    /*Resize image height & width depending on font size in Nav-bar*/
-}
-.gmail-picture:hover{
-    background-color: #5f6368;
+    height: 30px;
+    width: 30px;
+    margin: 0px 5px 5px 0px;
 }
 
-.main{
+.gmail-picture:hover {
+    background-color: #8e8e8f;
+
+}
+
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,11 +61,11 @@
     min-height: 300px;
     margin-top: 50px;
 }
-.google-logo{
+.google-logo {
   padding-bottom: 30px;
-  margin-top: 100px;
+  margin-top: 150px;
 }
-.search-bar{
+.search-bar {
     display: flex;
     border: 1px solid #dfe1e5;
     height: 25px;
@@ -69,11 +77,10 @@
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
 
 }
-.search-icon{
-    /* position magnifying glass onto edge of search-bar */
+.search-icon {
 opacity: 0.35;
 }
-.search-input{
+.search-input {
     width: 100%;
     border: none;
     outline: none;
@@ -92,13 +99,13 @@ button {
         border-radius: 0.25rem;
         background:rgb(245, 245, 245);
         color:inherit;
-        font-family: -system-ui, sans-serif;
         font-size: 1rem;
         line-height: 2;
         white-space: nowrap;
         text-decoration: none;
         padding: 0.25rem 0.5rem;
         cursor: pointer;
+        color: rgba(0, 0, 0, 0.7);
       }
 .search-buttons :hover {
     border: 1px solid #b1aeae;
@@ -107,24 +114,25 @@ button {
 }
 
 
-.language-options{
+.language-options {
 
 }
-.footer-container{
+.footer-container {
     position: absolute;
     bottom: 0;
     left: 0;
+    right: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    border: 1px solid grey;
+    border: 1px solid rgba(204, 207, 207, 0.54);
     border-bottom: 1px solid #dadce0;
-    background: rgba(196, 198, 199, 0.54);
-    font-size: 14px;
+    background: rgba(217, 220, 221, 0.54);
+    padding: 10px 0px 10px 0px;
 }
 .footer-container a {
-    color: rgba(0,0,0,0.87);
+    color: #6f7479;
 }
 .left-footer {
     margin: 0px 5px 0px 15px;
@@ -134,19 +142,14 @@ button {
     margin: 0px 15px 0px 0px;
 }
 
+.leaf {
+    max-height: 14px;
+}
 a {
     text-decoration: none;
+    padding: 5px;
     
 }
 a:hover {
     text-decoration: underline;
 }
-
-
-/*Notes 
-finish styling the buttons
-fix language options moving when hovering over buttons
-set padding and margins for the footer
-set links to relevant pages for footer
-
-*/
